@@ -20,3 +20,5 @@ npm run start
 # ファイル変更を監視してコンパイル
 npm run watch
 ```
+
+Code Runnerをインストールしてファイルを開いた状態で右クリックしてRun Code を選択すると該当ファイルだけ実行される

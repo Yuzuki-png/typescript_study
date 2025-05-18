@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "dev": "ts-node src/関数/index.ts",
     "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
