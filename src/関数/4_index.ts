@@ -22,6 +22,7 @@ function repeat<T>(element: T, length: number): T[] {
     return result;
   }
   
-  // resultはstring[]型となる
+  // resultは型推論からstring[]型となる
+  // 明示的に<string>としなくてもいい
   const result = repeat1("a", 5); 
   

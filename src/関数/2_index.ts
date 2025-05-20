@@ -24,3 +24,7 @@ const arr2 = nums.filter((x) => x % 3 === 0);
 console.log(arr2); // [3, 6, 9] と表示される
 
 const f = (num: number) => num * 2;
+
+const items = [1, 2, 3];
+items.map((x) => x * 2);
+
