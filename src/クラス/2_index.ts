@@ -29,7 +29,7 @@ const User = class {
   }
   
   function getPrice(customer: HasAge) {
-    if (customer instanceof User) {
+    if (customer instanceof User5) {
       if (customer.name === "uhyo") {
         return 0;
       }
